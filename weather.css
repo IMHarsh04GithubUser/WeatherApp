@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(160, 160, 247);
+ }
+
+ .weather-app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+ }
+
+ .weather-box {
+    border: solid 1px cyan;
+    border-radius: 5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 25px;
+    padding-bottom: 5ch;
+    gap: 10px;
+    background-color: white;
+    color: blueviolet;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15px cyan, 0 0 20px cyan;
+
+ }
+
+ input[type="text"] {
+    border: solid 1px blueviolet;
+    padding: 5px;
+    text-align: center;
+    color: blueviolet;
+ }
+
+ ::placeholder {
+    color: blueviolet;
+ }
+
+ #button1 {
+    background-color: blueviolet;
+    border: solid 1px blueviolet;
+    color: white;
+    font-family: Segoe UI;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+ }
+
+ .h1 {
+    border-bottom: solid 2px;
+ }
+
+ .weather-response {
+    border: solid 1px cyan;
+    width: 200px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15px cyan, 0 0 20px cyan;
+    padding: 15px;
+    color: blue;
+    text-align: center;
+
+
+ }
+
+ .p2 {
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
